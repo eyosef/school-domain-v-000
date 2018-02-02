@@ -21,7 +21,7 @@ class School
   def sort
     sorted_list = {}
     @roster.each do |student, grade|
-      sorted_students = student.sort_by.min
+      #sorted_students = student.sort_by.min
       sorted_list[grade] = student.sort
     end
     sorted_list
