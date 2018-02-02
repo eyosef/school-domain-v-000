@@ -24,6 +24,7 @@ class School
       sorted_students = student.sort
       sorted_list[grade] = sorted_students
     end
+    sorted_list
   end #method
 
 end #class
