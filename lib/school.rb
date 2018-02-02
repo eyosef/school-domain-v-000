@@ -22,7 +22,7 @@ class School
     sorted_list = {}
     @roster.each do |student, grade|
       sorted_students = student.sort
-
+      
     end
   end #method
 
