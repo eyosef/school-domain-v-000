@@ -19,11 +19,9 @@ class School
   end
 
   def sort
-    sorted_list = {}
     @roster.each do |student, grade|
-      sorted_list = student[sort]
+      student.sort!
     end #each iteration
-    sorted_list
   end #method
 
 end #class
